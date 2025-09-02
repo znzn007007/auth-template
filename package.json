@@ -1,0 +1,44 @@
+{
+  "name": "nextjs-supabase-auth-template",
+  "version": "1.0.0",
+  "description": "通用认证模块模板 - Next.js + Supabase",
+  "main": "index.ts",
+  "keywords": [
+    "nextjs",
+    "supabase", 
+    "authentication",
+    "auth",
+    "oauth",
+    "typescript",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@supabase/ssr": "^0.1.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "lucide-react": "^0.263.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "files": [
+    "server/",
+    "client/", 
+    "utils/",
+    "database/",
+    "types/",
+    "config/",
+    "index.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "check-deps": "echo '请确保安装了以下依赖包: @supabase/ssr @supabase/supabase-js lucide-react'"
+  }
+}
